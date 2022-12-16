@@ -38,15 +38,26 @@ while (j < 11) {
 
 console.groupEnd();
 
-
 console.group("Знайти добуток усіх цілих чисел від 15 до 35");
 
-let a = 15;
-let b = 15; 
+let multiplication = 1; 
 
-while (a < 36 && b < 36) {
-    console.log (`${a} * ${b} = ${a * b}`);
-    a++;
+for (a = 15; a < 36; a++) {
+ multiplication = a * multiplication; 
 }
 
+console.log(multiplication); 
 
+console.groupEnd();
+
+console.group("Знайти середнє арифметичне всіх цілих чисел від 1 до 500.");
+
+let sum = 0;
+
+for(k = 1; k < 501; k++) {
+    sum = sum + k;
+}
+
+console.log(`The average is equal to ${sum/k}`);
+
+console.groupEnd();
