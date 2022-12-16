@@ -61,3 +61,17 @@ for(k = 1; k < 501; k++) {
 console.log(`The average is equal to ${sum/k}`);
 
 console.groupEnd();
+
+console.group("Вивести суму лише парних чисел в діапазоні від 30 до 80.");
+
+let sumOfeven = 0; 
+
+for (let b = 30; b < 81; b++) {
+    if (b % 2 === 0) {
+        sumOfeven = sumOfeven + b;
+    }    
+}
+
+console.log(sumOfeven);
+
+console.groupEnd();
