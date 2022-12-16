@@ -3,7 +3,7 @@ console.group("Вивести на сторінку в один рядок че�
 let number = 10;
 let result = "";
 
-while(number < 21){
+while (number < 21){
     if (number === 20) {
         result += number;
     } else {
@@ -54,7 +54,7 @@ console.group("Знайти середнє арифметичне всіх ці�
 
 let sum = 0;
 
-for(k = 1; k < 501; k++) {
+for (k = 1; k < 501; k++) {
     sum = sum + k;
 }
 
