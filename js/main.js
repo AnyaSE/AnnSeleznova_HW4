@@ -53,12 +53,14 @@ console.groupEnd();
 console.group("Знайти середнє арифметичне всіх цілих чисел від 1 до 500.");
 
 let sum = 0;
+let average = 0;
 
 for (let k = 1; k < 501; k++) {
     sum = sum + k;
+    average = sum / k; 
 }
 
-console.log(`The average is equal to ${sum/k}`);
+console.log(`The average is equal to ${average}`);
 
 console.groupEnd();
 
