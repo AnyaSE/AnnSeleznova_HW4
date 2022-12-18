@@ -42,7 +42,7 @@ console.group("Знайти добуток усіх цілих чисел від
 
 let multiplication = 1; 
 
-for (a = 15; a < 36; a++) {
+for (let a = 15; a < 36; a++) {
  multiplication = a * multiplication; 
 }
 
@@ -54,7 +54,7 @@ console.group("Знайти середнє арифметичне всіх ці�
 
 let sum = 0;
 
-for (k = 1; k < 501; k++) {
+for (let k = 1; k < 501; k++) {
     sum = sum + k;
 }
 
